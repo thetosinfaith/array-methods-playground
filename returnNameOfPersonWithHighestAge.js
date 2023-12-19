@@ -66,19 +66,3 @@ console.log(returnNameOfPersonWithHighestAge(people))
 
 
 
-
-// const returnNameOfPersonWithHighestAge = (people) => {
-//     let highestAge = -Infinity;
-//     let personWithHighestAge = null;
-
-//     for (const person of people) {
-//         if (person.age > highestAge) {
-//             highestAge = person.age;
-//             personWithHighestAge = person.name;
-//         }
-//     }
-
-//     return personWithHighestAge;
-// }
-
-// console.log(returnNameOfPersonWithHighestAge(database));
