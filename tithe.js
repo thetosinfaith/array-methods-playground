@@ -6,23 +6,22 @@ Write a function that takes an array of objects e.g [ {name: "grace", tithe: 400
 
 */
 
-const database = [
-    
-        {"name": "Emily", "tithe": 45000},
-        {"name": "Daniel", "tithe": 38000},
-        {"name": "Sophia", "tithe": 30000},
-        {"name": "Benjamin", "tithe": 28000},
-        {"name": "Olivia", "tithe": 42000}
-      
-]
+const churchMembers = [
+    {"name": "Emily", "tithe": 45000},
+    {"name": "Daniel", "tithe": 38000},
+    {"name": "Sophia", "tithe": 30000},
+    {"name": "Benjamin", "tithe": 28000},
+    {"name": "Olivia", "tithe": 42000}
+];
 
-const returnTheTotalTithe = (totalTithe) => {
+const calculateAndReturnTotalTithe = (contributions) => {
+    let totalTithe = 0;
 
-    for(const eachPerson of people)
+    for (let person of contributions) {
+        totalTithe += person.tithe;
+    }
 
-}
-       const cal = eachPerson.people + tithe
-        
-}
+    return totalTithe;
+};
 
-return totalTithe;
+console.log(calculateAndReturnTotalTithe(churchMembers));
