@@ -12,7 +12,7 @@ function returnShortestWord(words) {
     return shortest;
 }
 
-const words = ["apple", "banana", "orange", "pear"];
+const words = ["apple", "banana", "ora", "pear"];
 console.log(returnShortestWord(words)); 
 
 

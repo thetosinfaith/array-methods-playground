@@ -20,7 +20,7 @@ function login(users, email, password) {
 }
 
 
-const users = [{email: "dan@gmail.com", password: "dan223", name: "dan"}];
+const users = [{email: "da@gmail.com", password: "dan223", name: "dan"}];
 
 try {
 
