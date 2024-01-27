@@ -13,9 +13,11 @@ const students = [
 ];
 
 const passedStudents = students.map(student => ({
+
     name: student.name,
     passed: student.grade >= 60
+    
 }))
 
 
-console.log(passedStudents);
+return console.log(passedStudents);
